@@ -49,6 +49,8 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
   it('returns "I would love to!" if `string` is "Let\'s have dinner together!"`', function () {
     expect(sayHiToHeadphonedRoommate("Let's have dinner together!")).toEqual(
       "I would love to!"
+    
+    
     );
   });
 })
